@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d6d6d6;
+    direction: rtl;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.point {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    text-align: right;
+}
+
+input {
+    width: 80px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+    direction: ltr;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+/* Button styling */
+button {
+    background: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+form button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+#back-btn {
+    display: block;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+    direction: rtl;
+}
+
+#display-container {
+    max-width: 800px;
+    margin: 0 auto;
+    direction: rtl;
+}
+
+#angle-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.angle {
+    display: inline-block;
+    margin: 0 15px;
+    text-align: center;
+}
+
+canvas {
+    background: white;
+    display: block;
+    margin: 20px auto;
+}
